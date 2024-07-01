@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-color: #F7EAEA;
@@ -21,4 +22,39 @@ header{
 .btn:hover{
     background-color: rgba(1, 1, 120, 0.688);
     cursor: pointer;
+}
+#highlight{
+    width: 70%;
+    margin: 50px auto;
+    
+}
+
+#highlight > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 3px 2px 7px rgb(246, 118, 118);
+}
+
+#highlight > p {
+    color: rgb(113, 113, 113);
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#buy-now-button{
+    display: flex;
+    justify-content: center;
+}
+
+#cover-image> img{
+    width: 100%;   
+}
+
+.ci{
+    width: 60%;
+    margin: 50px auto;
 }
